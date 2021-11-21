@@ -5,7 +5,7 @@ using System.Text;
 
 namespace NewYearGift
 {
-    public class Gift
+    public class NewYaerGift
     {
     }
 }

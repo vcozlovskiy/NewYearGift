@@ -6,7 +6,9 @@ namespace NewYearGift
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("когда пойдем пить!");
+            Fruit fruit = new Fruit(10,10);
+            
+         
         }
     }
 }
