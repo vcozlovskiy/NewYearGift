@@ -5,7 +5,7 @@ using System.Text;
 
 namespace NewYearGift
 {
-    public class Sugar
+    public class Sugar : IComparable
     {
         public float Concentration { get; }
 
@@ -23,6 +23,15 @@ namespace NewYearGift
         public override string ToString()
         {
             return new string("Sugar concentration: " + Concentration + " %");
+        }
+
+        public int CompareTo(object obj)
+        {
+            Sugar p = obj as Sugar;
+            if (p != null)
+                return this.Concentration.CompareTo(p.Concentration);
+            else
+                throw new Exception("obj is not Weight");
         }
     }
 }

@@ -30,7 +30,7 @@ namespace NewYearGift
             if (p != null)
                 return this.Kilogramms.CompareTo(p.Kilogramms);
             else
-                throw new Exception("obj is no");
+                throw new Exception("obj is not Weight");
         }
     }
 }

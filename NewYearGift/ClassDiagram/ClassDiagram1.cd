@@ -4,67 +4,80 @@
     <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>NewYaerGift.cs</FileName>
+      <FileName>Gift\NewYaerGift.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NewYearGift.Fruit">
     <Position X="2.5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Fruit.cs</FileName>
+      <FileName>Sweets\Fruit.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NewYearGift.Sweets">
+  <Class Name="NewYearGift.Sweet">
     <Position X="2.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAABAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sweets.cs</FileName>
+      <FileName>Sweets\Sweet.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NewYearGift.SweetsContiner">
     <Position X="7" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SweetsContiner.cs</FileName>
+      <HashCode>AAACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContinerOfSweets\SweetsContiner.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="NewYaerGift" />
-    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="NewYearGift.Weight">
     <Position X="4.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
-      <FileName>Weight.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>SweetsProperty\Weight.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="NewYearGift.Sugar">
     <Position X="0.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sugar.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQEAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SweetsProperty\Sugar.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="NewYearGift.Candy">
     <Position X="4.5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Candy.cs</FileName>
+      <FileName>Sweets\Candy.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NewYearGift.ChocolateBar">
     <Position X="0.5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ChocolateBar.cs</FileName>
+      <FileName>Sweets\ChocolateBar.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NewYearGift.WeightCounter">
-    <Position X="7" Y="5.25" Width="1.5" />
+    <Position X="7" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>WeightCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewYearGift.ParametricSorter">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="NewYearGift.ParametricSorter.SortParametrs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ParametricSorter.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParametricSorter.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
