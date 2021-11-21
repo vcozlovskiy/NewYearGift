@@ -5,12 +5,12 @@ using System.Text;
 
 namespace NewYearGift
 {
-    public abstract class Sweets
+    public abstract class Sweet
     {
         public Sugar ConcentrationSugar { get; }
         public Weight Weight { get; }
 
-        public Sweets(float sugarConcentration, float weight)
+        public Sweet(float sugarConcentration, float weight)
         {
             Weight = new Weight(weight);
             ConcentrationSugar = new Sugar(sugarConcentration);

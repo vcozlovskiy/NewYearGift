@@ -8,15 +8,15 @@ namespace NewYearGift
 {
     public class SweetsContiner : IEnumerable
     {
-        public List<Sweets> Sweets { get; }
+        public List<Sweet> Sweets { get; }
 
-        public SweetsContiner(IEnumerable<Sweets> fruits)
+        public SweetsContiner(IEnumerable<Sweet> fruits)
         {
-            Sweets = new List<Sweets>(fruits);
+            Sweets = new List<Sweet>(fruits);
         }
         public SweetsContiner()
         {
-            Sweets = new List<Sweets>();
+            Sweets = new List<Sweet>();
         }
 
         public IEnumerator GetEnumerator()

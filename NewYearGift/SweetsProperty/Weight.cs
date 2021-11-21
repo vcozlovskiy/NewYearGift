@@ -5,7 +5,7 @@ using System.Text;
 
 namespace NewYearGift
 {
-    public class Weight
+    public class Weight : IComparable
     {
         public float Kilogramms { get; }
 
@@ -22,6 +22,15 @@ namespace NewYearGift
         public override string ToString()
         {
             return new string("Weiht: " + Kilogramms + " gramms");
+        }
+
+        public int CompareTo(object obj)
+        {
+            Weight p = obj as Weight;
+            if (p != null)
+                return this.Kilogramms.CompareTo(p.Kilogramms);
+            else
+                throw new Exception("obj is no");
         }
     }
 }

@@ -11,7 +11,7 @@ namespace NewYearGift
         {
             float weight = 0;
 
-            foreach (Sweets sweet in sweets)
+            foreach (Sweet sweet in sweets)
             {
                 weight += sweet.Weight.Kilogramms;
             }

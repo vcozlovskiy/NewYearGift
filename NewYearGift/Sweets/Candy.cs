@@ -5,7 +5,7 @@ using System.Text;
 
 namespace NewYearGift
 {
-    public class Candy : Sweets
+    public class Candy : Sweet
     {
         public Candy(float weaght, float sugarConcentratio) 
             : base(weaght, sugarConcentratio)
