@@ -8,18 +8,20 @@ namespace NewYearGift
     public class Weight
     {
         public float Kilogramms { get; }
+
         public Weight(float weight)
         {
-            if (weight < 0)
+            if (weight <= 0)
             {
                 throw new ArgumentException(nameof(weight) +
                        " - Weigth can't be less 0");
             }
+            Kilogramms = weight;
         }
 
         public override string ToString()
         {
-            return new string("Weiht:" + Kilogramms + " kg");
+            return new string("Weiht: " + Kilogramms + " gramms");
         }
     }
 }
