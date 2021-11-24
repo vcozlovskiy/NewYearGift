@@ -9,15 +9,16 @@
     <Compile Remove="ContinerOfSweets\Новая папка\**" />
     <Compile Remove="Sorter\**" />
     <Compile Remove="SweetsProperty\Новая папка1\**" />
-    <Compile Remove="SweetsProperty\Новая папка\**" />
     <EmbeddedResource Remove="ContinerOfSweets\Новая папка\**" />
     <EmbeddedResource Remove="Sorter\**" />
     <EmbeddedResource Remove="SweetsProperty\Новая папка1\**" />
-    <EmbeddedResource Remove="SweetsProperty\Новая папка\**" />
     <None Remove="ContinerOfSweets\Новая папка\**" />
     <None Remove="Sorter\**" />
     <None Remove="SweetsProperty\Новая папка1\**" />
-    <None Remove="SweetsProperty\Новая папка\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Stuff\" />
   </ItemGroup>
 
 </Project>

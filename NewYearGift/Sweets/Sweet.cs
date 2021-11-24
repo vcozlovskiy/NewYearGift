@@ -10,7 +10,7 @@ namespace NewYearsGift.Sweets
     public abstract class Sweet
     {
         public Sugar ConcentrationSugar { get; }
-        public Weight Weight { get; }
+        public virtual Weight Weight { get; protected set; }
 
         public string SweetName 
         { 

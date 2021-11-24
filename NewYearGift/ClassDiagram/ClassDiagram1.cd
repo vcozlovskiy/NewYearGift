@@ -77,7 +77,7 @@
   <Class Name="NewYearsGift.Sweets.StaffedCookie" Collapsed="true">
     <Position X="4.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
       <FileName>Sweets\StaffedCookie.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -92,22 +92,22 @@
   <Class Name="NewYearsGift.Sweets.GumPack" Collapsed="true">
     <Position X="3.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAEAAAAACAAA=</HashCode>
       <FileName>Sweets\GumPack.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NewYearsGift.SweetsProperty.Stuffing">
     <Position X="7.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Stuffing.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>SweetsProperty\Stuffing.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="NewYearsGift.IStuffebly" Collapsed="true">
     <Position X="0.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
-      <FileName>IStuffebly.cs</FileName>
+      <FileName>SweetsProperty\IStuffebly.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

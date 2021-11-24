@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using NewYearsGift.ContinerOfSweets;
+using NewYearsGift.SweetsProperty;
 
 namespace NewYearsGift.Sweets
 {
@@ -17,13 +18,17 @@ namespace NewYearsGift.Sweets
             {
                 return Gums.Sweets.Count;
             }
+            private set
+            {
+
+            }
         } 
 
         public GumPack(float weaght, float sugarConcentratio,
             int numberOfGums)
                : base(weaght, sugarConcentratio)
         {
-            this.SweetName = "Gum pack";
+            this.SweetName = "Pac of gum";
 
             List<Gum> gumList = new List<Gum>(); 
             
@@ -33,7 +38,7 @@ namespace NewYearsGift.Sweets
             }
 
             Gums = new SweetsContiner();
-            numberOfGums = numberOfGums;
+            NumberOfGums = numberOfGums;
         }
 
         public Gum GetGum()
@@ -53,10 +58,10 @@ namespace NewYearsGift.Sweets
 
         public override string ToString()
         {
-            return $"Pac of gum: \n" +
+            return $"{SweetName}: \n" +
                    $"Gums count - {NumberOfGums},\n" +
                    $"Sugar - {ConcentrationSugar},\n" +
-                   $"Weigth - {Gums.Sweets[0].Weight.Kilograms * Gums.Sweets.Count}";
+                   $"Weigth - {Gums.Sweets[0].Weight.Kilograms}";
         }
     }
 }
