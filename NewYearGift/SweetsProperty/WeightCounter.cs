@@ -1,9 +1,11 @@
-﻿using System;
+﻿using NewYearsGift.ContinerOfSweets;
+using NewYearsGift.Sweets;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace NewYearGift
+namespace NewYearsGift.SweetsProperty
 {
     public static class WeightCounter
     {
@@ -13,7 +15,7 @@ namespace NewYearGift
 
             foreach (Sweet sweet in sweets)
             {
-                weight += sweet.Weight.Kilogramms;
+                weight += sweet.Weight.Kilograms;
             }
 
             return new Weight(weight);

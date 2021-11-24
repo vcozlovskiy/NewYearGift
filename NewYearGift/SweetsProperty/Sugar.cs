@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace NewYearGift
+namespace NewYearsGift.SweetsProperty
 {
     public class Sugar : IComparable
     {
@@ -22,7 +22,7 @@ namespace NewYearGift
 
         public override string ToString()
         {
-            return new string("Sugar concentration: " + Concentration + " %");
+            return $"Sugar concentration: {Concentration} %";
         }
 
         public int CompareTo(object obj)

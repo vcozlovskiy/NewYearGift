@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ContinerOfSweets\Новая папка\**" />
+    <Compile Remove="SweetsProperty\Новая папка1\**" />
+    <Compile Remove="SweetsProperty\Новая папка\**" />
+    <EmbeddedResource Remove="ContinerOfSweets\Новая папка\**" />
+    <EmbeddedResource Remove="SweetsProperty\Новая папка1\**" />
+    <EmbeddedResource Remove="SweetsProperty\Новая папка\**" />
+    <None Remove="ContinerOfSweets\Новая папка\**" />
+    <None Remove="SweetsProperty\Новая папка1\**" />
+    <None Remove="SweetsProperty\Новая папка\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ClassDiagram\ClassDiagram1.cd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClassDiagram\" />
+    <Folder Include="Sorter\" />
+  </ItemGroup>
+
+</Project>

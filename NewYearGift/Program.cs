@@ -1,7 +1,10 @@
 ﻿using System;
+using NewYearsGift.SortingParameters;
 using System.Collections.Generic;
+using NewYearsGift.Sweets;
+using NewYearsGift.ContinerOfSweets;
 
-namespace NewYearGift
+namespace NewYearsGift
 {
     class Program
     {
@@ -20,11 +23,11 @@ namespace NewYearGift
 
             SweetsContiner s = new SweetsContiner(f);
 
-            s.Sort(ParametricSorter.SortParametrs.Sugar);
+            s.Sort(SortParametrs.Sugar);
 
             foreach (Sweet st in s.Sweets)
             {
-                Console.WriteLine(st.ConcentrationSugar + " " + st.Weight);
+                Console.WriteLine(st);
             }
         }
     }

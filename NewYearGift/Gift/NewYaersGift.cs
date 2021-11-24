@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace NewYearGift
+namespace NewYearsGift.Gift
 {
-    public class NewYaerGift
+    public class NewYaersGift
     {
     }
 }
