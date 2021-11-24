@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="NewYearsGift.SweetsProperty.WeightCounter" Collapsed="true">
-    <Position X="6.75" Y="3.75" Width="1.5" />
+    <Position X="5.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SweetsProperty\WeightCounter.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="NewYearsGift.SweetsProperty.Weight" Collapsed="true">
-    <Position X="6.75" Y="0.5" Width="1.5" />
+    <Position X="7.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
       <FileName>SweetsProperty\Weight.cs</FileName>
@@ -16,7 +16,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="NewYearsGift.SweetsProperty.Sugar" Collapsed="true">
-    <Position X="6.75" Y="1.5" Width="1.5" />
+    <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQEAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SweetsProperty\Sugar.cs</FileName>
@@ -31,21 +31,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="NewYearsGift.Sweets.ChocolateBar" Collapsed="true">
-    <Position X="2.25" Y="3.75" Width="1.5" />
+    <Position X="2.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Sweets\ChocolateBar.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NewYearsGift.Sweets.Fruit" Collapsed="true">
-    <Position X="4" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sweets\Fruit.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="NewYearsGift.Sweets.Sweet" Collapsed="true">
-    <Position X="2.25" Y="2.75" Width="1.5" />
+    <Position X="3.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAABAAAAAACAAAAAAAAAAAAACAAA=</HashCode>
       <FileName>Sweets\Sweet.cs</FileName>
@@ -59,12 +52,63 @@
     </TypeIdentifier>
   </Class>
   <Class Name="NewYearsGift.ContinerOfSweets.SweetsContiner" Collapsed="true">
-    <Position X="5" Y="0.5" Width="1.5" />
+    <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ContinerOfSweets\SweetsContiner.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="NewYearsGift.Sweets.Cookie" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sweets\Cookie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewYearsGift.Sweets.StaffedChocolateBar" Collapsed="true">
+    <Position X="2.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Sweets\StaffedChocolateBar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NewYearsGift.Sweets.StaffedCookie" Collapsed="true">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sweets\StaffedCookie.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NewYearsGift.Sweets.Gum" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sweets\Gum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewYearsGift.Sweets.GumPack" Collapsed="true">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sweets\GumPack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewYearsGift.SweetsProperty.Stuffing">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stuffing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="NewYearsGift.IStuffebly" Collapsed="true">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>IStuffebly.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

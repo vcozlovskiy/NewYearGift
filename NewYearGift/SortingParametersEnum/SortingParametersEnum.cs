@@ -1,4 +1,4 @@
-﻿namespace NewYearsGift.SortingParameters
+﻿namespace NewYearsGift.SortingParametersEnum
 {
     public enum SortParametrs
     {

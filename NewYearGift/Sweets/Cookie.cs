@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace NewYearsGift.Sweets
 {
-    public class Fruit : Sweet
+    public class Cookie : Sweet
     {
-
-        public Fruit(float weight, float sugarConcentration) 
+        public Cookie(float weight, float sugarConcentration)
             : base(sugarConcentration, weight)
         {
-            this.SweetName = "Fruit";
+            this.SweetName = "Cookie";
         }
     }
 }

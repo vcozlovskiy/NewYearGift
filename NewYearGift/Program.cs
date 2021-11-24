@@ -1,5 +1,5 @@
 ﻿using System;
-using NewYearsGift.SortingParameters;
+using NewYearsGift.SortingParametersEnum;
 using System.Collections.Generic;
 using NewYearsGift.Sweets;
 using NewYearsGift.ContinerOfSweets;

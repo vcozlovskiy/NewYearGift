@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using NewYearsGift.SortingParameters;
+using NewYearsGift.SortingParametersEnum;
 using NewYearsGift.Sweets;
 
 namespace NewYearsGift.ContinerOfSweets
