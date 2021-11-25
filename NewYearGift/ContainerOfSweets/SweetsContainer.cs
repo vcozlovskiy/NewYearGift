@@ -8,15 +8,15 @@ using NewYearsGift.Sweets;
 
 namespace NewYearsGift.ContinerOfSweets
 {
-    public class SweetsContiner : IEnumerable
+    public class SweetsContainer : IEnumerable
     {
         public List<Sweet> Sweets { get; set; }
 
-        public SweetsContiner(IEnumerable<Sweet> fruits)
+        public SweetsContainer(IEnumerable<Sweet> fruits)
         {
             Sweets = new List<Sweet>(fruits);
         }
-        public SweetsContiner()
+        public SweetsContainer()
         {
             Sweets = new List<Sweet>();
         }
@@ -31,19 +31,19 @@ namespace NewYearsGift.ContinerOfSweets
             switch (parameter)
             {
                 case SortParametrs.Weight:
-                    var continer = from s in Sweets
+                    var сontainer = from s in Sweets
                                    orderby s.Weight
                                    select s;
 
-                    Sweets = continer.ToList();
+                    Sweets = сontainer.ToList();
                     break;
 
                 case SortParametrs.Sugar:
-                    var coutiner = from s in Sweets
+                    var сontainer1 = from s in Sweets
                                    orderby s.ConcentrationSugar
                                    select s;
 
-                    Sweets = coutiner.ToList();
+                    Sweets = сontainer1.ToList();
                     break;
             }
 

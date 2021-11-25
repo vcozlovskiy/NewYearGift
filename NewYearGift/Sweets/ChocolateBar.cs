@@ -7,8 +7,8 @@ namespace NewYearsGift.Sweets
 {
     public class ChocolateBar : Sweet
     {
-        public ChocolateBar(float weaght, float sugarConcentratio)
-               : base(weaght, sugarConcentratio)
+        public ChocolateBar(float weight, float sugarConcentration)
+               : base(weight, sugarConcentration)
         {
             this.SweetName = "ChocolateBar";
         }

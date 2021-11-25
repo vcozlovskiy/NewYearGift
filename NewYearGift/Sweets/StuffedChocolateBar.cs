@@ -6,15 +6,15 @@ using System.Text;
 
 namespace NewYearsGift.Sweets
 {
-    public class StaffedChocolateBar : ChocolateBar, IStuffebly
+    public class StuffedChocolateBar : ChocolateBar, IStuffebly
     {
         public Stuffing Stuffing { get; }
 
-        public StaffedChocolateBar(float weight, float sugarConcentration, Stuffing stuffing)
+        public StuffedChocolateBar(float weight, float sugarConcentration, Stuffing stuffing)
                : base(sugarConcentration, weight)
         {
             Stuffing = stuffing;
-            this.SweetName = "Staffed chocolate bar";
+            this.SweetName = "Stuffed chocolate bar";
         }
     }
 }

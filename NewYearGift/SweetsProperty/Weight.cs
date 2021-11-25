@@ -14,7 +14,7 @@ namespace NewYearsGift.SweetsProperty
             if (weight <= 0)
             {
                 throw new ArgumentException(nameof(weight) +
-                       " - Weigth can't be less 0");
+                       " - Weight can't be less 0");
             }
             Kilograms = weight;
         }

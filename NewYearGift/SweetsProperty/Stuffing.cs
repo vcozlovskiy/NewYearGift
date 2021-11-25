@@ -5,6 +5,6 @@ namespace NewYearsGift.SweetsProperty
 {
     public class Stuffing
     {
-        Stuffed Stuffed { get; }
+        public Stuffed Stuffed { get; }
     }
 }

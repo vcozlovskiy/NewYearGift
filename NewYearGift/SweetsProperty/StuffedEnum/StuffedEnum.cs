@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NewYearsGift.SweetsProperty.StuffedEnum
 {
-    enum Stuffed
+    public enum Stuffed
     {
         Jam,
         CondensedMilk,

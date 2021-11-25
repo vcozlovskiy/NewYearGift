@@ -7,14 +7,14 @@ using System.Text;
 
 namespace NewYearsGift.Sweets
 {
-    public class StaffedCookie : Cookie, IStuffebly
+    public class StuffedCookie : Cookie, IStuffebly
     {
         public Stuffing Stuffing { get; }
         
-        public StaffedCookie(float weight, float sugarConcentration, Stuffing stuffing)
+        public StuffedCookie(float weight, float sugarConcentration, Stuffing stuffing)
                : base(sugarConcentration, weight)
         {
-            this.SweetName = "Staffed cookie";
+            this.SweetName = "Stuffed cookie";
             Stuffing = stuffing;
         }
     }

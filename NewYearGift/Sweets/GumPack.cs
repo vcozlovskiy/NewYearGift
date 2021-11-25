@@ -10,7 +10,7 @@ namespace NewYearsGift.Sweets
 {
     public class GumPack : Sweet
     {
-        private SweetsContiner Gums { get; }
+        private SweetsContainer Gums { get; }
 
         public int NumberOfGums
         {
@@ -24,9 +24,9 @@ namespace NewYearsGift.Sweets
             }
         } 
 
-        public GumPack(float weaght, float sugarConcentratio,
+        public GumPack(float weight, float sugarConcentration,
             int numberOfGums)
-               : base(weaght, sugarConcentratio)
+               : base(weight, sugarConcentration)
         {
             this.SweetName = "Pac of gum";
 
@@ -34,10 +34,10 @@ namespace NewYearsGift.Sweets
             
             for (int i = 0; i < numberOfGums; i++)
             {
-                gumList.Add(new Gum(weaght,sugarConcentratio));
+                gumList.Add(new Gum(weight,sugarConcentration));
             }
 
-            Gums = new SweetsContiner();
+            Gums = new SweetsContainer();
             NumberOfGums = numberOfGums;
         }
 
