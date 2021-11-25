@@ -8,16 +8,26 @@
   <ItemGroup>
     <Compile Remove="ContainerOfSweets\Новая папка\**" />
     <Compile Remove="Sorter\**" />
+    <Compile Remove="SortingParametersEnum\**" />
     <Compile Remove="Stuff\**" />
     <Compile Remove="SweetsProperty\Новая папка1\**" />
+    <Compile Remove="SweetsProperty\Новая папка\**" />
     <EmbeddedResource Remove="ContainerOfSweets\Новая папка\**" />
     <EmbeddedResource Remove="Sorter\**" />
+    <EmbeddedResource Remove="SortingParametersEnum\**" />
     <EmbeddedResource Remove="Stuff\**" />
     <EmbeddedResource Remove="SweetsProperty\Новая папка1\**" />
+    <EmbeddedResource Remove="SweetsProperty\Новая папка\**" />
     <None Remove="ContainerOfSweets\Новая папка\**" />
     <None Remove="Sorter\**" />
+    <None Remove="SortingParametersEnum\**" />
     <None Remove="Stuff\**" />
     <None Remove="SweetsProperty\Новая папка1\**" />
+    <None Remove="SweetsProperty\Новая папка\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Новая папка\" />
   </ItemGroup>
 
 </Project>
