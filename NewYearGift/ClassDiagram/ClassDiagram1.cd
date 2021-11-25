@@ -51,11 +51,11 @@
       <FileName>Gift\NewYaersGift.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NewYearsGift.ContinerOfSweets.SweetsContiner" Collapsed="true">
+  <Class Name="NewYearsGift.ContinerOfSweets.SweetsContainer" Collapsed="true">
     <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ContinerOfSweets\SweetsContiner.cs</FileName>
+      <FileName>ContinerOfSweets\SweetsContainer.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -66,19 +66,19 @@
       <FileName>Sweets\Cookie.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="NewYearsGift.Sweets.StaffedChocolateBar" Collapsed="true">
+  <Class Name="NewYearsGift.Sweets.StuffedChocolateBar" Collapsed="true">
     <Position X="2.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
-      <FileName>Sweets\StaffedChocolateBar.cs</FileName>
+      <FileName>Sweets\StuffedChocolateBar.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="NewYearsGift.Sweets.StaffedCookie" Collapsed="true">
+  <Class Name="NewYearsGift.Sweets.StuffedCookie" Collapsed="true">
     <Position X="4.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
-      <FileName>Sweets\StaffedCookie.cs</FileName>
+      <FileName>Sweets\StuffedCookie.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>

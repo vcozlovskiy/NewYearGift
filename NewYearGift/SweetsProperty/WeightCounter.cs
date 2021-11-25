@@ -9,7 +9,7 @@ namespace NewYearsGift.SweetsProperty
 {
     public static class WeightCounter
     {
-        public static Weight WeightAllSweets(this SweetsContainer sweets)
+        public static Weight WeightAllSweets(this SweetsContainer<Sweet> sweets)
         {
             float weight = 0;
 

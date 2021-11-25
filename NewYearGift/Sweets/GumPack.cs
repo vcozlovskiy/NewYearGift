@@ -10,7 +10,7 @@ namespace NewYearsGift.Sweets
 {
     public class GumPack : Sweet
     {
-        private SweetsContainer Gums { get; }
+        private SweetsContainer<Gum> Gums { get; }
 
         public int NumberOfGums
         {
@@ -37,7 +37,7 @@ namespace NewYearsGift.Sweets
                 gumList.Add(new Gum(weight,sugarConcentration));
             }
 
-            Gums = new SweetsContainer();
+            Gums = new SweetsContainer<Gum>();
             NumberOfGums = numberOfGums;
         }
 
@@ -47,7 +47,9 @@ namespace NewYearsGift.Sweets
 
             if (Gums.Sweets.Count > 0)
             {
-                tempGum = (Gum)Gums.Sweets[^1];
+                tempGum = Gums.Sweets.First();
+                Gums.Sweets.Remove(tempGum);
+
                 return tempGum;
             }
             else

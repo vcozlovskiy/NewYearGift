@@ -8,17 +8,17 @@ using NewYearsGift.Sweets;
 
 namespace NewYearsGift.ContinerOfSweets
 {
-    public class SweetsContainer : IEnumerable
+    public class SweetsContainer<TSweet> : IEnumerable where TSweet : Sweet
     {
-        public List<Sweet> Sweets { get; set; }
+        public List<TSweet> Sweets { get; set; }
 
-        public SweetsContainer(IEnumerable<Sweet> fruits)
+        public SweetsContainer(IEnumerable<TSweet> sweets)
         {
-            Sweets = new List<Sweet>(fruits);
+            Sweets = sweets.ToList();
         }
         public SweetsContainer()
         {
-            Sweets = new List<Sweet>();
+            Sweets = new List<TSweet>();
         }
 
         public IEnumerator GetEnumerator()

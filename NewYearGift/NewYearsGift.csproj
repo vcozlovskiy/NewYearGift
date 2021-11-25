@@ -6,15 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="ContinerOfSweets\Новая папка\**" />
+    <Compile Remove="ContainerOfSweets\Новая папка\**" />
     <Compile Remove="Sorter\**" />
     <Compile Remove="Stuff\**" />
     <Compile Remove="SweetsProperty\Новая папка1\**" />
-    <EmbeddedResource Remove="ContinerOfSweets\Новая папка\**" />
+    <EmbeddedResource Remove="ContainerOfSweets\Новая папка\**" />
     <EmbeddedResource Remove="Sorter\**" />
     <EmbeddedResource Remove="Stuff\**" />
     <EmbeddedResource Remove="SweetsProperty\Новая папка1\**" />
-    <None Remove="ContinerOfSweets\Новая папка\**" />
+    <None Remove="ContainerOfSweets\Новая папка\**" />
     <None Remove="Sorter\**" />
     <None Remove="Stuff\**" />
     <None Remove="SweetsProperty\Новая папка1\**" />
