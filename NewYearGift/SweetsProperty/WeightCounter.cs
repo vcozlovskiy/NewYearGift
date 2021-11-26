@@ -1,9 +1,5 @@
 ﻿using NewYearsGift.ContinerOfSweets;
 using NewYearsGift.Sweets;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace NewYearsGift.SweetsProperty
 {

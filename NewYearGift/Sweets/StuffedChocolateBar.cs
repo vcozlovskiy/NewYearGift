@@ -1,8 +1,4 @@
 ﻿using NewYearsGift.SweetsProperty;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace NewYearsGift.Sweets
 {
@@ -10,10 +6,10 @@ namespace NewYearsGift.Sweets
     {
         public Stuffing Stuffing { get; }
 
-        public StuffedChocolateBar(float weight, float sugarConcentration, Stuffing stuffing)
+        public StuffedChocolateBar(float weight, float sugarConcentration, StuffingEnum stuffing)
                : base(sugarConcentration, weight)
         {
-            Stuffing = stuffing;
+            Stuffing = new Stuffing(stuffing);
             this.SweetName = "Stuffed chocolate bar";
         }
     }

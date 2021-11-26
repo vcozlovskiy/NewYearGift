@@ -1,6 +1,6 @@
 ﻿namespace NewYearsGift.SortingParametersEnum
 {
-    public enum SortParametrs
+    public enum SortParameters
     {
         Weight,
         Sugar,

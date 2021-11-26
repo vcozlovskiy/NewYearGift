@@ -1,8 +1,4 @@
 ﻿using NewYearsGift.SweetsProperty;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 
 namespace NewYearsGift.Sweets
@@ -23,6 +19,7 @@ namespace NewYearsGift.Sweets
             Weight = new Weight(weight);
             ConcentrationSugar = new Sugar(sugarConcentration);
         }
+
         public override string ToString()
         {
             return $"{SweetName}: \n" +

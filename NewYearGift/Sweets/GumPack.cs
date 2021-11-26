@@ -1,10 +1,6 @@
-﻿using NewYearsGift.Sweets;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using NewYearsGift.ContinerOfSweets;
-using NewYearsGift.SweetsProperty;
 
 namespace NewYearsGift.Sweets
 {
@@ -16,7 +12,7 @@ namespace NewYearsGift.Sweets
         {
             get
             {
-                return Gums.Sweets.Count;
+                return Gums.Count;
             }
             private set
             {
@@ -45,10 +41,10 @@ namespace NewYearsGift.Sweets
         {
             Gum tempGum;
 
-            if (Gums.Sweets.Count > 0)
+            if (Gums.Count > 0)
             {
-                tempGum = Gums.Sweets.First();
-                Gums.Sweets.Remove(tempGum);
+                tempGum = Gums.First();
+                Gums.Remove(tempGum);
 
                 return tempGum;
             }
@@ -63,7 +59,7 @@ namespace NewYearsGift.Sweets
             return $"{SweetName}: \n" +
                    $"Gums count - {NumberOfGums},\n" +
                    $"Sugar - {ConcentrationSugar},\n" +
-                   $"Weigth - {Gums.Sweets[0].Weight.Kilograms}";
+                   $"Weigth - {Gums[0].Weight.Kilograms}";
         }
     }
 }
